@@ -425,6 +425,7 @@ func (o OpenSignal) ViewNotifications(appID string, limit, offset int) (Notifica
 //TrackOpen Track when users open a notification
 //Put -> https://onesignal.com/api/v1/notifications/:id
 func (o OpenSignal) TrackOpen(notificationID string, track Track) (Response, error) {
+
 	strResponse := Response{}
 
 	URL := f(trackOpen, notificationID)

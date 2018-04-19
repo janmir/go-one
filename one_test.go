@@ -7,9 +7,9 @@ import (
 )
 
 var (
-	playerID  = "20562684-494d-4b06-af41-868a40a62e1b"
-	authKey   = "OTI5NmU1ZmQtM2UzMS00ZTg5LWI0OTctYmE2NDdhMzJhNGRh"
-	apiKey    = "MTdiZWNjMTEtYzA0Yy00MmQ5LWFhYzMtZjE4NDQyYzJhZDgw"
+	playerID  = "*"
+	authKey   = "*"
+	apiKey    = "*"
 	appID     = "87a38029-bda5-4a10-a4c9-697492b36d8f"
 	notifID   = "e5d74486-ce0c-4bb6-9660-2fea19eb2920"
 	oneSignal = New(authKey, apiKey)
