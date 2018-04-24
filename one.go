@@ -1,4 +1,4 @@
-package one
+package onesignal
 
 import (
 	"encoding/json"

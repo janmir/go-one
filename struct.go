@@ -1,4 +1,4 @@
-package one
+package onesignal
 
 //App structure
 type App struct {
