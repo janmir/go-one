@@ -47,8 +47,9 @@ type NotificationRequest struct {
 	DeliveryTimeOfDay string            `json:"delivery_time_of_day,omitempty"`
 	WebIcon           string            `json:"chrome_web_icon,omitempty"`
 	Data              map[string]string `json:"data,omitempty"`
-	Contents          map[string]string `json:"contents,omitempty"`
 	IncludedSegments  []string          `json:"included_segments,omitempty"`
+	Headings          map[string]string `json:"headings,omitempty"` //en, es
+	Contents          map[string]string `json:"contents,omitempty"` //en, es
 }
 
 //Filter struct
