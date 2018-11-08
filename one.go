@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/parnurzeal/gorequest"
+	"github.com/janmir/gorequest"
 )
 
 var (

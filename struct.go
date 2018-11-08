@@ -50,6 +50,15 @@ type NotificationRequest struct {
 	IncludedSegments  []string          `json:"included_segments,omitempty"`
 	Headings          map[string]string `json:"headings,omitempty"` //en, es
 	Contents          map[string]string `json:"contents,omitempty"` //en, es
+	WebButtons        []WebButton       `json:"web_buttons,omitempty"`
+}
+
+//WebButton struct
+type WebButton struct {
+	ID   string `json:"id,omitempty"`
+	Text string `json:"text,omitempty"`
+	Icon string `json:"icon,omitempty"`
+	URL  string `json:"url,omitempty"`
 }
 
 //Filter struct
