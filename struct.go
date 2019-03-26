@@ -51,6 +51,7 @@ type NotificationRequest struct {
 	Headings          map[string]string `json:"headings,omitempty"` //en, es
 	Contents          map[string]string `json:"contents,omitempty"` //en, es
 	WebButtons        []WebButton       `json:"web_buttons,omitempty"`
+	SendAfter         string            `json:"send_after,omitempty"`
 }
 
 //WebButton struct
